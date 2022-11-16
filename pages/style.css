@@ -1,4 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Serif+Oriya:wght@700&family=Roboto+Mono:ital,wght@1,600&family=VT323&display=swap');
 
-head {
-    font-family:'Roboto Mono', monospace;
+html {
+    min-height: 100%;
+  }
+
+body {
+  font-family: 'VT323', monospace;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  box-sizing: border-box;
+  outline: none;
+  text-transform: uppercase;
+  transition: all .2s linear;
+  color:rgb(239, 18, 202)
+  }
+
+.header {
+    font-size: 4em;
+    -webkit-text-stroke: .5px rgba(rgb(243, 15, 220), rgb(242, 2, 254), rgb(239, 18, 202));
+    font-weight: bolder;
+    position: sticky;
 }
+    
+body,html{
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top:0; left:0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000%;
+  display: flex;
+  align-items: flex-start;
+  justify-content:center;
+  flex-flow: column;
+  padding:0 10%;
+}
+
+.navbar a{
+  font-size: 4em;
+  -webkit-text-stroke: .5px rgba(rgb(243, 15, 220), rgb(242, 2, 254), rgb(239, 18, 202));
+  font-weight: bolder;
+  position: relative;
+  
+}
+
+.background-image{
+  position: absolute;
+  top:0; left:0;
+  height: 100%;
+  width: 100%;
+  background: url(../pages/image1\ 2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  
+  
+}
+
+
+
+
