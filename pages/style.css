@@ -1,23 +1,23 @@
-@import url("https://use.typekit.net/bdw4wiz.css");
-
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
 body {
     width: 100%;
-    background-color: #050403;
+    background-color: #e9e6e4;
     
 }
 
   html {
     min-height: 100%;
   }
-
+  body::-webkit-scrollbar {
+    display: none;
+  }
 body {
-  font-family: aviano-future, sans-serif;
-  font-weight: 400;
+  font-family: "Space Grotesk", sans-serif;;
+  font-weight: 700;
   font-style: normal;
   font-size: 2em;
-  font-weight: 400;
-  color: whitesmoke;
+  color: black;
   }
  
 .topnav {
@@ -34,11 +34,11 @@ body {
 
 .topnav a {
   float: left;
-  color: whitesmoke;
+  color: black;
   text-align: center;
   padding: 20px 30px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: -1em;
 }
 
 
@@ -125,17 +125,18 @@ homescreenanimation{
 }
 
 .intro h1{
-  font-size: 50px;
+  font-size: 80px;
   margin-bottom: 20px;
-  color: whitesmoke;
+  color: black;
 }
 
 span{
-  color: whitesmoke;
+  color: black;
 }
 
 .intro p{
-  color: whitesmoke;
+  color: black;
+  font-family: "Inter", sans-serif;
   line-height: 22px;
   font-size: 35px;
 }
