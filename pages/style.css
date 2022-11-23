@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 body {
     width: 100%;
-    background-color: #e9e6e4;
+    background-color: #000;
     
 }
 
@@ -13,11 +13,10 @@ body {
     display: none;
   }
 body {
-  font-family: "Space Grotesk", sans-serif;;
-  font-weight: 700;
+  font-family: 'PT Mono', monospace;
+  font-size: 16px;
   font-style: normal;
-  font-size: 2em;
-  color: black;
+  color: white;
   }
  
 .topnav {
@@ -34,11 +33,11 @@ body {
 
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 20px 30px;
   text-decoration: none;
-  font-size: -1em;
+ 
 }
 
 
@@ -125,9 +124,10 @@ homescreenanimation{
 }
 
 .intro h1{
-  font-size: 80px;
+  font-family: 'PT Mono', monospace;
+  font-size: 20px;
   margin-bottom: 20px;
-  color: black;
+  color: white;
 }
 
 span{
@@ -135,10 +135,9 @@ span{
 }
 
 .intro p{
-  color: black;
-  font-family: "Inter", sans-serif;
+  color: white;
   line-height: 22px;
-  font-size: 35px;
+  font-size: 16px;
 }
 
 
